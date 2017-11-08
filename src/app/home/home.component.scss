@@ -1,0 +1,50 @@
+.navigation-example {
+    background-image: url('../../assets/img/walkway_trees.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0;
+}
+
+.background {
+    background-image: url('../../assets/img/paris-hd.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0;
+}
+
+.textalign{
+    text-align: center;
+}
+
+.logo-margin{
+    margin: 0 auto 45px;
+}
+
+@media (max-width: 500px)
+{
+    .presentation-title{
+        font-size:3em;
+    }
+    .fog-low img{
+        width: 73%;
+    }
+}
+
+@media (max-width: 350px){
+    .text-center{
+        font-size: 10px;}
+}
+
+@media (max-width: 767px){
+    .home-container{
+        width:85%;
+    }
+    .presentation-subtitle{
+        font-size: 15px !important;
+    }
+    .text-margin-mobile{
+        margin-top: 15px;
+    }
+}
